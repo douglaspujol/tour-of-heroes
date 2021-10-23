@@ -1,0 +1,21 @@
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+header nav a:first-child{
+  margin:0  10px 0 0;
+}
+
+header nav a.active-link{
+ color: var(--header-color-linkActive);
+ border-bottom: 2px solid var(--header-color-linkActive);
+}
+header div.divider{
+  background: #ddd;
+  height: 30px;
+  width: 2px;
+  margin: 0 10px;
+}

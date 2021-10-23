@@ -1,0 +1,82 @@
+div.containerHeroes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.listHeroes{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ul{
+  padding:0;
+  margin:0;
+}
+
+li{
+  list-style-type: none;
+  background:#fff;
+  border-radius: 4px;
+  margin:5px 0;
+  width: 250px;
+  padding:10px;
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+li a{
+  width: 100%;
+}
+li button{
+  background:rgb(211, 81, 107);
+  color:#fff;
+  border-radius: 50%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: 10px;
+}
+li button:hover{
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.12);
+
+}
+div#containerHero{
+  margin-left: 30px;
+
+}
+div.inputHeroContainer{
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 4px;
+  width: 300px;
+
+}
+input#new-hero{
+  border:none;
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+
+  width: 100%;
+  padding:0;
+  padding:0 10px;
+  background: rgb(243, 243, 243);
+}
+button.add-button{
+  background:rgb(81, 194, 100);
+  color:#ffff;
+  width: 100%;
+  max-width: 80px;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  border-radius:0 4px 4px 0;
+}

@@ -1,0 +1,53 @@
+div.containerDetail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+span{
+  margin:5px 0;
+}
+div.heroName{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+input{
+  border:none;
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+  width: 100%;
+  padding:0;
+  padding:0 10px;
+  height: 40px;
+  background: rgb(243, 243, 243);
+}
+div.actions{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.actions button:first-child{
+  cursor: pointer;
+  background: rgb(103, 216, 103);
+  border: 0;
+  border-radius: 4px;
+  width: 150px;
+  font-weight: bold;
+  color:#fff;
+  height: 35px;
+}
+div.actions button:last-child{
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+div.actions button:last-child:hover{
+  border-bottom: 1px solid #333;
+}
